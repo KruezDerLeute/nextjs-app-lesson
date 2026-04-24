@@ -3,7 +3,7 @@ import Link from "next/link";
 import LogoutButton from "./LogoutButton";
 
 function Navbar() {
-  const session = true;
+  const session = false;
   return (
     <nav className='bg-white shadow-sm  '>
       <div className='container mx-auto p-4 flex justify-between items-center'>
